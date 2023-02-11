@@ -1,7 +1,7 @@
 # 确保脚本抛出遇到的错误
 set -e
 # deploy gh-pages
-npm run build
+npm run docs:build
 # 进入打包好的文件夹
 # cd ./docs
 # 创建git的本地仓库，提交修改
