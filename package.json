@@ -13,7 +13,7 @@
   "homepage": "https://github.com/openHacking/vuepress-template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openHacking/vuepress-template.git"
+    "url": "git+https://github.com/openHacking/vuepress-template.git"
   },
   "license": "MIT",
   "scripts": {
@@ -24,5 +24,12 @@
     "@vuepress/plugin-back-to-top": "^1.7.1",
     "vuepress": "^1.7.1",
     "vuepress-plugin-qrcode": "^1.0.7"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/openHacking/vuepress-template/issues"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {}
 }
